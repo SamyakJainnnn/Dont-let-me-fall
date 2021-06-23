@@ -1,0 +1,45 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.grid{
+    width:800px;
+    height: 570px;
+    background-color: yellow;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    
+}
+.doodler{
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    background-image: url('stickman.png');
+}
+.platform{
+    width: 170px;
+    height:15px;
+    background-color: green;
+    position: absolute;
+}
+#reset{
+    width: 400px;
+    height: auto;
+    font-size: large;
+}
+#score{
+    font-size: 100px;
+    color: white;
+    
+}
+#endscore{
+    font-size: 100px;
+    color: black;
+}
+
+#highScore{
+    color: red;
+    font-size: 50px;
+}
